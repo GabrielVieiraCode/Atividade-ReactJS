@@ -10,7 +10,7 @@ namespace senai_2s2019_CodeXP_Gufos.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
-    // [Authorize]
+    [Authorize]
     public class TiposUsuarioController : ControllerBase
     {
         TipoUsuarioRepository _repositorio = new TipoUsuarioRepository();
